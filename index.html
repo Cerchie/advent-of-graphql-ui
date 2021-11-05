@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Image Generator</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex justify-center items-center h-screen">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img
+        class="w-full"
+        src="https://images.unsplash.com/photo-1544634440-f49b8e23e85b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2332&q=80"
+        alt="Sunset in the mountains"
+      />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Happy Advent of GraphQL!</div>
+        <p class="text-gray-700 text-base">
+          Generate a random image from Unsplash.
+          <button
+            class="
+              bg-blue-500
+              hover:bg-blue-700
+              text-white
+              font-bold
+              py-2
+              px-4
+              rounded
+              mt-2
+            "
+          >
+            New Image
+          </button>
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2"></div>
+    </div>
+  </body>
+</html>
